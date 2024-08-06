@@ -182,7 +182,7 @@ justify-content: space-around;
 /* Hot Deal section */
 main .hotdeal{
  width: 100%; 
-  height: 620px;
+  height: 600px;
   background: rgba(229, 84, 115, 0.1);
   display: flex;
     text-align: center;
@@ -226,7 +226,7 @@ span{
 
   .instagram-section-container{
     width: 1260px;
-    height: 1050px;
+    height: 500px;
     margin: 0 auto;
     margin-top: 140px;
 }  
@@ -263,4 +263,87 @@ span{
     grid-template-columns: repeat(3, 1fr);    */
     display: flex;
     gap: 10px;
+}
+.super-deals-container{
+    width: 1260px;
+    height: 449px;
+    margin: 0 auto;
+    margin-top: 140px;
+    background-image: url("../images/latest-deals-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.super-deals-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deals-content h1{
+font-family: Lato;
+font-size: 25px;
+text-align: center;
+margin-bottom: 10px;
+}
+.deals-content p{
+    font-family: Lato;
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.deals-content input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* Footer section */
+
+footer{
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+    background-color: rgb(17, 16, 16);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .text-content{
+ width: 625px;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+   
+}
+.span-1{
+    color: white;
+}
+.text-content h1{
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 10px;
+}
+.fastp{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.lastp{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: center;
 }
