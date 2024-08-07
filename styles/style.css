@@ -131,7 +131,8 @@ text-decoration-line: underline;
     height: 500px;
     display: flex;
     justify-content: center;
- align-items: center;
+    align-items: end;
+ /* align-items: center; */
  /* border: 2px solid red; */
 border-radius: 50% 50% 0 0;
 }
